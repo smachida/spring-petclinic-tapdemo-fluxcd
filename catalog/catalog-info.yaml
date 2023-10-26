@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: spring-petclinic-tapdemo
+  name: spring-petclinic-tapdemo-fluxcd
   description: Spring PetClinic
   tags:
     - app-accelerator
@@ -9,7 +9,7 @@ metadata:
     - spring
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-petclinic-tapdemo'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-petclinic-tapdemo-fluxcd'
 spec:
   type: service
   lifecycle: experimental
